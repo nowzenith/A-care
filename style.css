@@ -1,0 +1,75 @@
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.item-a {
+  grid-area: a;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.item-b {
+  grid-area: b;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.item-c {
+  grid-area: c;
+  background-color: lightgray;
+}
+.item-d {
+  grid-area: d;
+  text-align: center;
+}
+
+.item-e {
+  grid-area: e;
+}
+.item-e div {
+  background-color: lightgray;
+  text-align: center;
+}
+.item-f {
+  grid-area: f;
+}
+.item-g {
+  grid-area: g;
+}
+.item-h {
+  grid-area: h;
+}
+.item-i {
+  grid-area: i;
+}
+
+.grid-container {
+  display: grid;
+  border: 3px solid black;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto 50px 75px 75px;
+  grid-template-areas:
+    "a a . . . . b b . ."
+    "c c c c c c d e e e"
+    "f f f f f g g g g g"
+    "h h h h h h i i i i";
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+body {
+  margin: 300px;
+  background-color: pink;
+}
+
+h2 span {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}

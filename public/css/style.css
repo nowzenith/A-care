@@ -1,0 +1,375 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  margin-top: 9px;
+  margin-left: 30px;
+  justify-content: right;
+}
+
+header h1 {
+  margin-left: 30px;
+}
+
+header {
+  width: 100%;
+  padding: 30px 30px;
+  color: #fff;
+  background: #5d6953;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .01);
+}
+
+footer {
+  width: 100%;
+  padding: 70px 30px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  z-index: 99;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .01);
+}
+
+.bmi_container {
+  /* background: linear-gradient(48deg, #b3dadf, #9ad0a1); */
+  min-height: 100vh;
+  padding-bottom: 5%;
+  background: #dbd2c3;
+  padding-top: 7%;
+}
+
+.bmi_category_container {
+  background: #878f77;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+}
+
+.bmi_info_container {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  background: #f0ede6;
+}
+
+.bmi_description_container {
+  background: #f4ede5;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bmi_disease_container {
+  background: #b6a385;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bmi_solution_container {
+  background: #bdc6b5;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ul {
+  margin-left: 10%
+}
+
+.box {
+  background: #fff;
+  border-radius: 18px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  margin-left: 17.5%;
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+  color: #000;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+.content {
+  padding: 0 30px;
+}
+
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+.input label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a27b5c;
+  width: 40%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+.BMI {
+  text-align: center;
+}
+
+.BMI h1 {
+  color: #fefefe;
+  padding-bottom: -20px;
+  margin-bottom: -20px;
+}
+
+.BMI p {
+  color: #fefefe;
+  margin-bottom: 3px;
+}
+
+.inputW {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: 30%;
+  margin-right: 10%;
+}
+
+
+.inputW label {
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.inputW input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a27b5c;
+  width: 50%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+.inputH {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  width: 30%
+}
+
+
+.inputH label {
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.inputH input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #a27b5c;
+  width: 50%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+
+button.calculate {
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+  border-radius: 12px;
+  padding: 7px 0;
+  width: 50%;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+button.calculate:hover {
+  background: #000;
+}
+
+.texttitle {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: -15px;
+}
+
+.gendertitle {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: -25px;
+}
+
+
+.result {
+  padding: 10px 15px;
+}
+
+.result p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.result #result {
+  font-size: 30px;
+  font-weight: 500;
+  color: #495e5f;
+  background-color: #eee;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 15px;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* Style for Radio */
+.gender .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  background-color: #ffff;
+  /* margin-bottom: 12px; */
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.gender .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  background: #fff;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.gender .container:hover input~.checkmark {
+  background-color: #a27b5c;
+}
+
+/* When the radio button is checked, add a blue background */
+.gender .container input:checked~.checkmark {
+  background-image: linear-gradient(to right, #cbae95, #a27b5c);
+}
+
+
+/* Style the indicator (dot/circle) */
+.gender .container .checkmark:after {
+  top: 8px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* END Style for Radio */
+
+.containerHW {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BMI_Result_Summary{
+  color: #495e5f;
+  padding-left: 10%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  background-color: #878f77;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #bdc6b5;
+  color: #000;
+}
+
+;
